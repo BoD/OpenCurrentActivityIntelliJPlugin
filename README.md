@@ -3,6 +3,8 @@ Open Current Activity Android Studio / IntelliJ Plugin
 
 A little plugin for Android development (Android Studio or IntelliJ).
 
+![Illustration](/illus.jpg?raw=true "Illustration")
+
 Adds an action under **Navigate / Current Activity** (default shortcut: `F10`) that opens the class
 corresponding to the currently shown Activity on the attached device / emulator.
 
