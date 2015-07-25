@@ -1,0 +1,48 @@
+<idea-plugin version="2">
+    <id>org.jraf.intellijplugin.opencurrentactivity</id>
+    <name>Open current Activity</name>
+    <version>1.0.0</version>
+    <vendor email="BoD@JRAF.org"
+        url="http://JRAF.org">Benoit 'BoD' Lubek</vendor>
+
+    <description><![CDATA[
+      An action to open the class corresponding to the currently shown Activity on the attached Android device / emulator.<br/>
+      <br/>
+      This action can be found under <b>Navigate / Current Activity</b>.<br/>
+      <br/>
+      The default keyboard shortcut is <b>F10</b>.<br/>
+      <br/>
+      <b>Development</b><br/>
+      <br/>
+      <a href="https://github.com/BoD/OpenCurrentActivityIntelliJPlugin/">https://github.com/BoD/OpenCurrentActivityIntelliJPlugin/</a>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Initial release.
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="139"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <application-components>
+    </application-components>
+
+    <project-components>
+    </project-components>
+
+    <actions>
+        <action id="OpenCurrentActivity.Open"
+            class="org.jraf.intellijplugin.opencurrentactivity.OpenCurrentActivityAnAction"
+            text="Current Activity"
+            description="Open the class corresponding to the currently shown Activity on the attached Android device / emulator">
+            <add-to-group group-id="GoToMenu"
+                anchor="last"/>
+            <keyboard-shortcut keymap="$default"
+                first-keystroke="F10"/>
+        </action>
+    </actions>
+
+</idea-plugin>
