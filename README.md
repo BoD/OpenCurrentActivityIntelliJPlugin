@@ -5,8 +5,8 @@ A little plugin for Android development (Android Studio or IntelliJ).
 
 ![Illustration](/illus.png?raw=true "Illustration")
 
-Adds an action under **Navigate / Current Activity** (default shortcut: `F10`) that opens the class
-corresponding to the currently shown Activity on the attached device / emulator.
+Adds an action under **Navigate / Current Activity** (default shortcut: `Ctrl` `F10` on PC, `⌘` `F10` on Mac) that opens the class
+corresponding to the currently shown Activity on the attached device or emulator.
 
 Why?
 ----

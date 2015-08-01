@@ -1,26 +1,30 @@
 <idea-plugin version="2">
     <id>org.jraf.intellijplugin.opencurrentactivity</id>
     <name>Open current Activity</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="BoD@JRAF.org"
         url="http://JRAF.org">Benoit 'BoD' Lubek</vendor>
 
     <description><![CDATA[
-      An action to open the class corresponding to the currently shown Activity on the attached Android device / emulator.<br/>
-      <br/>
-      This action can be found under <b>Navigate / Current Activity</b>.<br/>
-      <br/>
-      The default keyboard shortcut is <b>F10</b>.<br/>
-      <br/>
-      <b>Development</b><br/>
-      <br/>
-      <a href="https://github.com/BoD/OpenCurrentActivityIntelliJPlugin/">https://github.com/BoD/OpenCurrentActivityIntelliJPlugin/</a>
-      <br/>
-      <br/>
+        An action to open the class corresponding to the currently shown Activity on the attached Android device or emulator.<br/>
+        <br/>
+        This action can be found under <b>Navigate / Current Activity</b>.<br/>
+        <br/>
+        The default keyboard shortcut is <b>Ctrl F10</b> (PC), <b>⌘F10</b> (Mac).<br/>
+        <br/>
+        <b>Development</b><br/>
+        <br/>
+        <a href="https://github.com/BoD/OpenCurrentActivityIntelliJPlugin/">https://github.com/BoD/OpenCurrentActivityIntelliJPlugin/</a>
+        <br/>
+        <br/>
     ]]></description>
 
     <change-notes><![CDATA[
-      Initial release.
+        <b>1.0.1</b><br/>
+        Changed the default shortcut.<br/>
+        <br/>
+        <b>1.0.0</b><br/>
+        Initial release.
     ]]>
     </change-notes>
 
@@ -39,11 +43,11 @@
         <action id="OpenCurrentActivity.Open"
             class="org.jraf.intellijplugin.opencurrentactivity.OpenCurrentActivityAnAction"
             text="Current Activity"
-            description="Open the class corresponding to the currently shown Activity on the attached Android device / emulator">
+            description="Open the class corresponding to the currently shown Activity on the attached Android device or emulator">
             <add-to-group group-id="GoToMenu"
                 anchor="last"/>
             <keyboard-shortcut keymap="$default"
-                first-keystroke="F10"/>
+                first-keystroke="control F10"/>
         </action>
     </actions>
 
