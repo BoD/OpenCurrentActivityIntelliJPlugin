@@ -22,10 +22,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.jraf.intellijplugin.opencurrentactivity.exception;
+package org.jraf.intellijplugin.opencurrentactivity.exception
 
-public class NoDevicesAdbException extends AdbException {
-    public NoDevicesAdbException() {
-        super();
-    }
+class MultipleDevicesAdbException : AdbException {
+    constructor() : super() {}
+
+    constructor(t: Throwable) : super(t) {}
 }

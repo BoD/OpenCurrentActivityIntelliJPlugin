@@ -22,16 +22,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.jraf.intellijplugin.opencurrentactivity.exception;
+package org.jraf.intellijplugin.opencurrentactivity.exception
 
-public class AdbException extends Exception {
-    public AdbException() {}
-
-    public AdbException(Throwable t) {
-        super(t);
-    }
-
-    public AdbException(String message) {
-        super(message);
-    }
-}
+class ExecutionAdbException(t: Throwable) : AdbException(t)

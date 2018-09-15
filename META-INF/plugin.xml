@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>org.jraf.intellijplugin.opencurrentactivity</id>
     <name>Open current Activity</name>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <vendor email="BoD@JRAF.org"
         url="http://JRAF.org">Benoit 'BoD' Lubek</vendor>
 
@@ -20,6 +20,9 @@
     ]]></description>
 
     <change-notes><![CDATA[
+        <b>1.1.0</b><br/>
+        Now the plugin will open <code>.kt</code> files in addition to <code>.java</code> files.<br/>
+        <br/>
         <b>1.0.2</b><br/>
         Trying to make the plugin appear in Android Studio plugin manager...<br/>
         <br/>
