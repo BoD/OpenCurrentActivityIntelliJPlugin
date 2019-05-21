@@ -51,7 +51,7 @@ import java.util.regex.Pattern
 class OpenCurrentActivityAnAction : AnAction() {
 
     companion object {
-        private const val PATTERN_FOCUSED_ACTIVITY = "mFocusedActivity"
+        private const val PATTERN_RESUMED_ACTIVITY = "ResumedActivity"
         private val PATTERN_ACTIVITY_NAME = Pattern.compile(".* ([a-zA-Z0-9.]+)/([a-zA-Z0-9.]+).*")
         private const val PATTERN_MULTIPLE_DEVICE = "more than one device"
         private const val PATTERN_DEVICE_LIST_HEADER = "List"
@@ -236,7 +236,7 @@ class OpenCurrentActivityAnAction : AnAction() {
                 if (line.contains(PATTERN_DEVICE_NOT_FOUND)) {
                     throw NoDevicesAdbException()
                 }
-                if (line.contains(PATTERN_FOCUSED_ACTIVITY)) {
+                if (line.contains(PATTERN_RESUMED_ACTIVITY)) {
                     val matcher = PATTERN_ACTIVITY_NAME.matcher(line)
                     if (!matcher.matches()) {
                         log.error("Could not find the focused Activity in the line")
