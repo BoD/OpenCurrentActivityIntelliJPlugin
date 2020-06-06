@@ -5,24 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5cfb0a1-ae27-4ef9-8f09-5c3580cbfe2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/GPL3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/GPL3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenCurrentActivityIntelliJPlugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCurrentActivityIntelliJPlugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illus.png" beforeDir="false" afterPath="$PROJECT_DIR$/illus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.kt" afterDir="false" />
     </list>
-    <ignored path="OpenCurrentActivityIntelliJPlugin.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,171 +26,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1893701603">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="5" />
-          <entry key="kt" value="260" />
-          <entry key="xml" value="103" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="Kotlin" value="260" />
-          <entry key="XML" value="103" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="5" />
-          <entry key="kotlin_builtins" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="1" />
-          <entry key="kotlin_builtins" value="1" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="OpenCurrentActivityIntelliJPlugin" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#9572#9578#0" expanded="true" />
-                <element signature="e#9583#9589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/codeStyleSettings.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="189" selection-start-line="189" selection-end-line="189" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/COPYING">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenCurrentActivityIntelliJPlugin.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,31 +35,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>private const val EXT_JAVA = &quot;.java&quot;</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/OpenCurrentActivityAnAction.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/AdbException.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbExecutionException.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.java" />
-        <option value="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.kt" />
-        <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -248,6 +56,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectId" id="1cx9hUnHcKstc6ot5PGOEMSozzR" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -300,98 +109,23 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="codeStyles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="copyright" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="opencurrentactivity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="opencurrentactivity" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="META-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="OpenCurrentActivityIntelliJPlugin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="OpenCurrentActivityIntelliJPlugin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="extractMethod.generateAnnotations" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37241378" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -403,18 +137,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.jraf.intellijplugin.opencurrentactivity.exception" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -464,18 +186,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
@@ -484,7 +194,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="OpenCurrentActivityIntelliJPlugin" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -493,11 +216,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="OpenCurrentActivityIntelliJPlugin" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -513,34 +236,6 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1595136" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Palette&#9;" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7339782" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Designer" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-    </layout>
-  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -549,225 +244,54 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="183" y="43" key="#Project_Structure" timestamp="1591459857195">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="183" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1591459857195" />
+    <state x="425" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591459622479">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="425" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.877@0.23.1440.877" timestamp="1591459622479" />
+    <state x="441" y="333" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591463572115">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="441" y="333" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1591463572115" />
+    <state x="238" y="40" key="CommitChangelistDialog2" timestamp="1591463542790">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="238" y="40" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1591463542790" />
+    <state x="119" y="100" key="DiffContextDialog" timestamp="1591463514699">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="119" y="100" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1591463514699" />
+    <state width="1369" height="343" key="GridCell.Tab.0.bottom" timestamp="1591460605116">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="343" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591460605116" />
+    <state width="1369" height="343" key="GridCell.Tab.0.center" timestamp="1591460605115">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="343" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591460605115" />
+    <state width="1369" height="343" key="GridCell.Tab.0.left" timestamp="1591460605114">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="343" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591460605114" />
+    <state width="1369" height="343" key="GridCell.Tab.0.right" timestamp="1591460605115">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="343" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591460605115" />
+    <state x="389" y="147" key="SettingsEditor" timestamp="1591463624044">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="389" y="147" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1591463624044" />
+    <state x="393" y="187" width="604" height="548" key="find.popup" timestamp="1591463596617">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="393" y="187" width="604" height="548" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1591463596617" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/actionSystem/AnAction.class" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/editor-ui-api/src/com/intellij/openapi/actionSystem/AnAction.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/util/src/com/intellij/openapi/diagnostic/DefaultLogger.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/util/src/com/intellij/openapi/diagnostic/Logger.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/platform-impl/src/com/intellij/ide/IdeEventQueue.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/platform-impl/src/com/intellij/openapi/keymap/impl/IdeKeyEventDispatcher.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/projectModel-impl/src/com/intellij/openapi/roots/impl/SdkFinder.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/core-api/src/com/intellij/ide/util/PropertiesComponent.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/lang-impl/src/com/intellij/openapi/projectRoots/impl/ProjectJdkTableImpl.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/projectModel-impl/src/com/intellij/core/CoreProjectJdkTable.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/projectModel-api/src/com/intellij/openapi/projectRoots/ProjectJdkTable.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/lang/Exception.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/platform-api/src/com/intellij/openapi/wm/WindowManager.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/platform-impl/src/com/intellij/openapi/wm/impl/status/IdeStatusBarImpl.java" />
-    <entry file="file://$PROJECT_DIR$/../idea/platform/platform-api/src/com/intellij/openapi/wm/StatusBarInfo.java" />
-    <entry file="file://$PROJECT_DIR$/COPYING">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCurrentActivityIntelliJPlugin.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/kotlin-stdlib.jar!/kotlin/kotlin.kotlin_builtins">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="1038" column="20" selection-start-line="1038" selection-start-column="20" selection-end-line="1038" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ProcessBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="1003" column="19" selection-start-line="1003" selection-start-column="19" selection-end-line="1003" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#9572#9578#0" expanded="true" />
-            <element signature="e#9583#9589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/codeStyleSettings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.37241378" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <last-edited>GPL3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.37241378" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Detection</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.37241378" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.37241378" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>IntelliJ IDEA Community Edition IC-182.4323.46</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.37241378" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>OpenCurrentActivityIntelliJPlugin</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.37241378" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.37241378" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
