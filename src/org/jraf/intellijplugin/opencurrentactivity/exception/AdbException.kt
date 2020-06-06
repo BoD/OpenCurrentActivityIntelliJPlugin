@@ -7,7 +7,7 @@
  *                              /___/
  * repository.
  *
- * Copyright (C) 2015 Benoit 'BoD' Lubek (BoD@JRAF.org)
+ * Copyright (C) 2015-present Benoit 'BoD' Lubek (BoD@JRAF.org)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,9 +25,9 @@
 package org.jraf.intellijplugin.opencurrentactivity.exception
 
 open class AdbException : Exception {
-    constructor() {}
+    constructor()
 
-    constructor(t: Throwable) : super(t) {}
+    constructor(t: Throwable) : super(t)
 
-    constructor(message: String) : super(message) {}
+    constructor(message: String) : super(message)
 }

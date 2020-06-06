@@ -1,9 +1,8 @@
 <idea-plugin version="2">
     <id>org.jraf.intellijplugin.opencurrentactivity</id>
     <name>Open current Activity</name>
-    <version>1.1.0</version>
-    <vendor email="BoD@JRAF.org"
-        url="http://JRAF.org">Benoit 'BoD' Lubek</vendor>
+    <version>1.1.1</version>
+    <vendor email="BoD@JRAF.org" url="http://JRAF.org">Benoit 'BoD' Lubek</vendor>
 
     <description><![CDATA[
         An action to open the class corresponding to the currently shown Activity on the attached Android device or emulator.<br/>
@@ -20,6 +19,8 @@
     ]]></description>
 
     <change-notes><![CDATA[
+        <b>1.1.1</b><br/>
+        The plugin should work again with more modern versions of Android.  Thanks to <a href="https://github.com/AlexandreG">AlexandreG</a>!<br/>
         <b>1.1.0</b><br/>
         Now the plugin will open <code>.kt</code> files in addition to <code>.java</code> files.<br/>
         <br/>
@@ -34,7 +35,7 @@
     ]]>
     </change-notes>
 
-    <idea-version since-build="139"/>
+    <idea-version since-build="139" />
 
     <depends>com.intellij.modules.java</depends>
 
@@ -49,13 +50,11 @@
 
     <actions>
         <action id="OpenCurrentActivity.Open"
-            class="org.jraf.intellijplugin.opencurrentactivity.OpenCurrentActivityAnAction"
+            class="org.jraf.intellijplugin.opencurrentactivity.OpenCurrentActivityAction"
             text="Current Activity"
             description="Open the class corresponding to the currently shown Activity on the attached Android device or emulator">
-            <add-to-group group-id="GoToMenu"
-                anchor="last"/>
-            <keyboard-shortcut keymap="$default"
-                first-keystroke="control F10"/>
+            <add-to-group group-id="GoToMenu" anchor="last" />
+            <keyboard-shortcut keymap="$default" first-keystroke="control F10" />
         </action>
     </actions>
 

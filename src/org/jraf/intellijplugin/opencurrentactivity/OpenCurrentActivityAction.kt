@@ -7,7 +7,7 @@
  *                              /___/
  * repository.
  *
- * Copyright (C) 2015-2018 Benoit 'BoD' Lubek (BoD@JRAF.org)
+ * Copyright (C) 2015-present Benoit 'BoD' Lubek (BoD@JRAF.org)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -45,10 +45,10 @@ import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 import java.util.ArrayList
-import java.util.Arrays
 import java.util.regex.Pattern
 
-class OpenCurrentActivityAnAction : AnAction() {
+@Suppress("unused")
+class OpenCurrentActivityAction : AnAction() {
 
     companion object {
         private const val PATTERN_RESUMED_ACTIVITY = "ResumedActivity"
@@ -67,11 +67,10 @@ class OpenCurrentActivityAnAction : AnAction() {
         private const val EXT_JAVA = ".java"
         private const val EXT_KOTLIN = ".kt"
 
-        private val log = Logger.getInstance(OpenCurrentActivityAnAction::class.java)
+        private val log = Logger.getInstance(OpenCurrentActivityAction::class.java)
     }
 
-
-    private var statusBar: StatusBar? = null
+    private lateinit var statusBar: StatusBar
 
     /**
      * Find the path for the Android SDK (so we can deduce the path for adb).
@@ -81,7 +80,7 @@ class OpenCurrentActivityAnAction : AnAction() {
     private val androidSdkPath: String?
         get() {
             val allSdks = ProjectJdkTable.getInstance().allJdks
-            log.info("allSdks=" + Arrays.toString(allSdks))
+            log.info("allSdks=${allSdks.contentToString()}")
             for (sdk in allSdks) {
                 val sdkTypeName = sdk.sdkType.name
                 log.info(sdkTypeName)
@@ -93,21 +92,17 @@ class OpenCurrentActivityAnAction : AnAction() {
         }
 
     override fun actionPerformed(event: AnActionEvent) {
-        val project = event.getData(PlatformDataKeys.PROJECT)
-        if (project == null) {
+        val project = event.getData(PlatformDataKeys.PROJECT) ?: run {
             log.warn("project is null, which should never happen: give up")
             return
         }
 
-        val statusBar = WindowManager.getInstance().getStatusBar(project)
-        this.statusBar = statusBar
-        if (statusBar == null) {
+        statusBar = WindowManager.getInstance().getStatusBar(project) ?: run {
             log.warn("statusBar is null, which should never happen: give up")
             return
         }
 
-        val androidSdkPath = androidSdkPath
-        if (androidSdkPath == null) {
+        val androidSdkPath = androidSdkPath ?: run {
             log.warn("Could not find Android sdk path")
             Messages.showWarningDialog(project, UI_NO_SDK_MESSAGE, UI_GENERIC_WARNING)
             return
@@ -126,7 +121,7 @@ class OpenCurrentActivityAnAction : AnAction() {
                         activityName = getCurrentActivityName(deviceId, androidSdkPath)
                         openActivityFile(project, activityName)
                     } catch (e: ExecutionAdbException) {
-                        statusBar.info = "Could not execute adb (" + e.cause?.message + ")"
+                        statusBar.info = "Could not execute adb (${e.cause?.message})"
                     } catch (e: ParseAdbException) {
                         statusBar.info = "Could not parse adb output"
                     } catch (e: MultipleDevicesAdbException) {
@@ -137,7 +132,7 @@ class OpenCurrentActivityAnAction : AnAction() {
 
                 }
             } catch (e: ExecutionAdbException) {
-                statusBar.info = "Could not execute adb (" + e.cause?.message + ")"
+                statusBar.info = "Could not execute adb (${e.cause?.message})"
             } catch (e: ParseAdbException) {
                 statusBar.info = "Could not parse adb output"
             } catch (e: NoDevicesAdbException) {
@@ -147,7 +142,7 @@ class OpenCurrentActivityAnAction : AnAction() {
             }
 
         } catch (e: ExecutionAdbException) {
-            statusBar.info = "Could not execute adb (" + e.cause?.message + ")"
+            statusBar.info = "Could not execute adb (${e.cause?.message})"
         } catch (e: ParseAdbException) {
             statusBar.info = "Could not parse adb output"
         } catch (e: NoDevicesAdbException) {
@@ -176,29 +171,26 @@ class OpenCurrentActivityAnAction : AnAction() {
                     log.info("No file with name $fileNameJava found")
                     // Java not found, try Kotlin
                     foundFiles = PsiShortNamesCache.getInstance(project).getFilesByName(fileNameKotlin)
-                }
-                if (foundFiles.isEmpty()) {
-                    log.info("No file with name $fileNameKotlin found")
-                    statusBar!!.info = "Could not find $fileNameJava or $fileNameKotlin in project"
-                    return@runReadAction
+                    if (foundFiles.isEmpty()) {
+                        log.info("No file with name $fileNameKotlin found")
+                        statusBar.info = "Could not find $fileNameJava or $fileNameKotlin in project"
+                        return@runReadAction
+                    }
                 }
                 if (foundFiles.size > 1) log.warn("Found more than one file with name $fileNameJava or $fileNameKotlin")
 
-                val foundFile = foundFiles[0]
-                log.info("Opening file " + foundFile.name)
-                val descriptor = OpenFileDescriptor(project, foundFile.virtualFile)
-                descriptor.navigate(true)
+                // Will open all files if several are found
+                for (foundFile in foundFiles) {
+                    log.info("Opening file " + foundFile.name)
+                    val descriptor = OpenFileDescriptor(project, foundFile.virtualFile)
+                    descriptor.navigate(true)
+                }
             }
         }
     }
 
     private fun getAdbPath(androidSdkPath: String): String {
-        val adb = if (SystemInfo.isWindows) {
-            ADB_WINDOWS
-        } else {
-            ADB_UNIX
-        }
-
+        val adb = if (SystemInfo.isWindows) ADB_WINDOWS else ADB_UNIX
         val adbPath = androidSdkPath + ADB_SUBPATH + adb
         log.info("adbPath='$adbPath'")
         return adbPath
@@ -214,11 +206,10 @@ class OpenCurrentActivityAnAction : AnAction() {
     private fun getCurrentActivityName(deviceId: String?, androidSdkPath: String): String {
         val adbPath = getAdbPath(androidSdkPath)
 
-        val processBuilder: ProcessBuilder
-        if (deviceId == null) {
-            processBuilder = ProcessBuilder(adbPath, "shell", "dumpsys", "activity", "activities")
+        val processBuilder: ProcessBuilder = if (deviceId == null) {
+            ProcessBuilder(adbPath, "shell", "dumpsys", "activity", "activities")
         } else {
-            processBuilder = ProcessBuilder(adbPath, "-s", deviceId, "shell", "dumpsys", "activity", "activities")
+            ProcessBuilder(adbPath, "-s", deviceId, "shell", "dumpsys", "activity", "activities")
         }
         processBuilder.redirectErrorStream(true)
         var process: Process? = null
@@ -230,19 +221,17 @@ class OpenCurrentActivityAnAction : AnAction() {
                 line = bufferedReader.readLine()
                 if (line == null) break
                 log.info("line='$line'")
-                if (line.contains(PATTERN_MULTIPLE_DEVICE)) {
-                    throw MultipleDevicesAdbException()
-                }
-                if (line.contains(PATTERN_DEVICE_NOT_FOUND)) {
-                    throw NoDevicesAdbException()
-                }
-                if (line.contains(PATTERN_RESUMED_ACTIVITY)) {
-                    val matcher = PATTERN_ACTIVITY_NAME.matcher(line)
-                    if (!matcher.matches()) {
-                        log.error("Could not find the focused Activity in the line")
-                        throw ParseAdbException("Could not find the focused Activity in the line")
+                when {
+                    line.contains(PATTERN_MULTIPLE_DEVICE) -> throw MultipleDevicesAdbException()
+                    line.contains(PATTERN_DEVICE_NOT_FOUND) -> throw NoDevicesAdbException()
+                    line.contains(PATTERN_RESUMED_ACTIVITY) -> {
+                        val matcher = PATTERN_ACTIVITY_NAME.matcher(line)
+                        if (!matcher.matches()) {
+                            log.error("Could not find the focused Activity in the line")
+                            throw ParseAdbException("Could not find the focused Activity in the line")
+                        }
+                        return matcher.group(2)
                     }
-                    return matcher.group(2)
                 }
             }
         } catch (e: IOException) {
