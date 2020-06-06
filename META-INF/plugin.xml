@@ -21,15 +21,20 @@
     <change-notes><![CDATA[
         <b>1.1.1</b><br/>
         The plugin should work again with more modern versions of Android.  Thanks to <a href="https://github.com/AlexandreG">AlexandreG</a>!<br/>
+        <br/>
+
         <b>1.1.0</b><br/>
         Now the plugin will open <code>.kt</code> files in addition to <code>.java</code> files.<br/>
         <br/>
+
         <b>1.0.2</b><br/>
         Trying to make the plugin appear in Android Studio plugin manager...<br/>
         <br/>
+
         <b>1.0.1</b><br/>
         Changed the default shortcut.<br/>
         <br/>
+
         <b>1.0.0</b><br/>
         Initial release.
     ]]>

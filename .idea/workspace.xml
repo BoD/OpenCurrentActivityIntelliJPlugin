@@ -4,20 +4,8 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5cfb0a1-ae27-4ef9-8f09-5c3580cbfe2c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/GPL3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/GPL3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a5cfb0a1-ae27-4ef9-8f09-5c3580cbfe2c" name="Default" comment="Minor code cleanup and update manifest">
       <change beforePath="$PROJECT_DIR$/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCurrentActivityIntelliJPlugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCurrentActivityIntelliJPlugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illus.png" beforeDir="false" afterPath="$PROJECT_DIR$/illus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAnAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/OpenCurrentActivityAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/AdbException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ExecutionAdbException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/MultipleDevicesAdbException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/NoDevicesAdbException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jraf/intellijplugin/opencurrentactivity/exception/ParseAdbException.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +222,14 @@
       <option name="presentableId" value="Default" />
       <updated>1437418753579</updated>
     </task>
+    <task id="LOCAL-00001" summary="Minor code cleanup and update manifest">
+      <created>1591463680108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591463680108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -243,6 +239,14 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Minor code cleanup and update manifest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor code cleanup and update manifest" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="183" y="43" key="#Project_Structure" timestamp="1591459857195">
@@ -257,10 +261,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="441" y="333" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1591463572115" />
-    <state x="238" y="40" key="CommitChangelistDialog2" timestamp="1591463542790">
+    <state x="238" y="40" key="CommitChangelistDialog2" timestamp="1591463679951">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="238" y="40" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1591463542790" />
+    <state x="238" y="40" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1591463679951" />
     <state x="119" y="100" key="DiffContextDialog" timestamp="1591463514699">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -285,6 +289,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="389" y="147" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1591463624044" />
+    <state x="295" y="201" key="Vcs.Push.Dialog.v2" timestamp="1591463681499">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="295" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1591463681499" />
     <state x="393" y="187" width="604" height="548" key="find.popup" timestamp="1591463596617">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
